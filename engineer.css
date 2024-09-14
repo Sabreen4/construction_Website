@@ -1,0 +1,80 @@
+.engineer-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#search {
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.profiles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.profile {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.profile h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.profile p {
+    font-size: 14px;
+    color: #777;
+}
+/* engineer.css */
+
+
+/* engineer.css */
+
+.back {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 12px; /* Adjust padding to make it smaller */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    text-align: center; /* Center text */
+}
+
+.back:hover {
+    background-color: #0056b3;
+}
+
+.back svg {
+    margin-right: 5px; /* Adjust spacing */
+    vertical-align: middle; /* Align the icon vertically */
+}
+
